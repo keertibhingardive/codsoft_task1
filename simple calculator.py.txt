@@ -1,0 +1,33 @@
+# simple calculator
+num1=int(input("Enter first number:"))
+num2=int(input("Enter second number:"))
+print("+ for addition")
+print("- for subtraction")
+print("* for multiplication")
+print("/ for division")
+print("% for modulus")
+
+choice=input("enter your choice:(+,-,*,/,%):")
+
+if choice=='+':
+    print("The addition of given two number is",num1+num2)
+    
+elif choice=='-':
+    print("The subtraction of given two number is",num1-num2)
+    
+elif choice=='*':
+    print("The multiplication of given two number is",num1*num2)
+    
+elif choice=='/':
+    print("The division of given two number is",num1/num2)
+    
+elif choice=='%':
+    print("The modulus of given two number is",num1%num2)
+    
+else:
+    print("invalid choice")
+    
+    
+                
+    
+    
